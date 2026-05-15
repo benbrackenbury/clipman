@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-    store := store.NewLogFileStore("clipboard.log")
-    defer store.Close()
-    transmit.Transmit(store)
+	store := store.NewSQLiteStore("clipboard.db")
+	defer store.Close()
+	transmit.Transmit(store)
 }
-
