@@ -1,7 +1,0 @@
-2024/07/20 11:48:47 .Printf("Error reading
-2024/07/20 11:48:48 reading clip
-2024/07/20 11:50:14 reading clip
-2024/07/20 11:50:20 transmit.Transmit(store)
-2024/07/20 11:50:24 type Store interface {
-2024/07/20 11:52:26 
-2024/07/20 11:54:26 type Store interface {

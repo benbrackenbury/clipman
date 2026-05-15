@@ -25,3 +25,29 @@ go.work.sum
 # macOS garbage
 .DS_Store
 .Thumbs.db
+
+# Application runtime artifacts (project-specific)
+clipboard.db
+clipboard.log
+*.db
+*.log
+
+# Build output (local builds output to ./main, Dockerfile uses /app/bin/)
+main
+/bin/
+/dist/
+/out/
+
+# Coverage and profiling (modern Go tooling)
+*.coverprofile
+coverage.*
+profile.cov
+*.prof
+
+# Debugger binaries (Delve, VS Code Go)
+__debug_bin*
+debug.test
+
+# Temp files
+*.tmp
+tmp/
