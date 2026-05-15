@@ -38,5 +38,5 @@ func (s *LogFileStore) SetLatestContent(content string) {
 }
 
 func (s *LogFileStore) Close() {
-    s.file.Close()
+	s.file.Close()
 }

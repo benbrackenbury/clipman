@@ -3,7 +3,8 @@ package receive
 import "fmt"
 
 func Receive() {
-    for {
-        fmt.Println("Receiving clipboard content...")
-    }
+	for {
+		fmt.Println("Receiving clipboard content...")
+		// exit if no content
+	}
 }

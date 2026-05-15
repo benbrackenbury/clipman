@@ -31,7 +31,7 @@ func Transmit(store store.Store) {
 				continue
 			}
 
-            store.SetLatestContent(content)
+			store.SetLatestContent(content)
 
 		case sig := <-sigs:
 			fmt.Printf("\nReceived signal %s. Exiting...\n", sig)
@@ -39,4 +39,3 @@ func Transmit(store store.Store) {
 		}
 	}
 }
-
